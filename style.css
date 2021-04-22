@@ -200,14 +200,15 @@ header nav li:hover{
 }
 
 .advert img{
-    width:66%;
+    width:65%;
     margin: 0 0 50px 0;
 }
 
 .advert-text{
-    width:25%;
-    margin:-10px 50px 0px 50px;
+    width:300px;
+    margin:-30px 30px 0px 30px;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 .advert-text a{
