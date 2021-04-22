@@ -137,8 +137,9 @@ header nav li:hover{
 
 .landing-text {
     position: absolute;
-    bottom:50px;
-    margin:0 5%;
+    bottom:50%;
+    left:50px;
+    transform: translateY(260px);
     width:500px;
 }
 
@@ -225,3 +226,60 @@ header nav li:hover{
     border:2px solid #FF6F31;
     color:#FF6F31;
 }
+
+
+/*Social Images*/
+
+.social-image-parent {
+    clear:both;
+    float: left;
+    width:60%;
+}
+
+.social-image-parent ul{
+    list-style:none;
+}
+
+.social-image-parent ul li{
+    float:left;
+}
+
+.background {
+    width:250px;
+    background-image:social-img-1@2x.png
+}
+
+/*
+   <div class="social">
+            <div class="social-image-parent">
+                <ul>
+                    <li>
+                        <div class="background">
+                            <div class="trans-box">
+                                <a href="#"> mo mo muckaloo</a>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+
+        <div class="social">
+            <div class="social-image-parent">
+                <ul>
+                    <li><img src="assets/social-img-1@2x.png"></li>
+                    <li><img src="assets/social-img-2@2x.png"></li>
+                    <li><img src="assets/social-img-3@2x.png"></li>
+                    <li><img src="assets/social-img-4@2x.png"></li>
+                    <li><img src="assets/social-img-5@2x.png"></li>
+                    <li><img src="assets/social-img-6@2x.png"></li>
+                </ul>
+            </div>
+            <div class="social-text-parent">
+                <h4>#LET'SGO</h4>
+                <h5>Just a bunch of <span>GO™</span> hards out in the wild. Share your photos using some <span>GO™</span> products with #LETSGO and tag 
+                @GOBicycles to be featured here.</h5>
+                <button class="black-hover"><a href="#">Explore the Gallery</a></button>
+            </div>
+        </div>
+        */
