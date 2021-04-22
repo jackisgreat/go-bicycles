@@ -57,7 +57,7 @@ a {
     font-family: europa,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 21px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-decoration: none;
     color: black;
@@ -160,11 +160,13 @@ header nav li:hover{
     font-style: italic;}
 
 .landing-text a{
-    padding: 10px 15px;
+    padding: 10px 10px;
     background-color: #FF6F31;
     color: white;
     border: 2px solid white;
     box-sizing: border-box;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
 .landing-text a:hover{
@@ -190,34 +192,39 @@ header nav li:hover{
 
 .left{
     float: left;
+    margin-right: 30px;
 }
 
 .right{
     float:right;
+    margin-left: 30px;
 }
 
 .advert{
     clear: both;
+    margin-bottom: 25px;
 }
 
 .advert img{
     width:65%;
-    margin: 0 0 50px 0;
+    margin-bottom: 20px;
 }
 
 .advert-text{
-    width:300px;
-    margin:-30px 30px 0px 30px;
-    display: inline-block;
+    margin:50px 25px 25px 25px;
     box-sizing: border-box;
+    position: relative;
+    top: 20px;
 }
 
 .advert-text a{
-    padding: 10px 15px;
+    padding: 10px 10px;
     background-color: #FF6F31;
     color: white;
     border: 2px solid white;
     box-sizing: border-box;
+    margin-right: 10px;
+    margin-top: 10px;
     display: inline-block;
 }
 
