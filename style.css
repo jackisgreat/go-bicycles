@@ -246,7 +246,7 @@ header nav li:hover{
 
 .background {
     width:250px;
-    background-image:social-img-1@2x.png
+    background-image: url("assets/social-img-1@2x.png")
 }
 
 /*
