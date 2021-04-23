@@ -240,7 +240,7 @@ header nav li:hover{
 .social-image-parent {
     clear:both;
     float: left;
-    width:60%;
+    width:75%;
 }
 
 .social-image-parent ul{
@@ -249,6 +249,26 @@ header nav li:hover{
 
 .social-image-parent ul li{
     float:left;
+    margin: 10px;
+}
+
+.social1{
+        background-image: url("assets/social-img-1@2x.png"); 
+}
+.social2{
+        background-image: url("assets/social-img-2@2x.png"); 
+}
+.social3{
+        background-image: url("assets/social-img-3@2x.png"); 
+}
+.social4{
+        background-image: url("assets/social-img-4@2x.png"); 
+}
+.social5{
+        background-image: url("assets/social-img-5@2x.png"); 
+}
+.social6{
+        background-image: url("assets/social-img-6@2x.png"); 
 }
 
 .background {
@@ -258,7 +278,6 @@ header nav li:hover{
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
-    background-image: url("assets/social-img-1@2x.png");
     background-color: blue;
     box-sizing: border-box;
     position: relative;
@@ -275,14 +294,48 @@ header nav li:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: inline-block;
     background-color: black;
     margin: 0;
     opacity: 0;
+
     }
 
 .trans-box:hover{
     opacity: .7;
+    cursor: pointer;
+}
+
+.trans-box h5{
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 30% auto 30px;
+    transform: translateY(-50%)
+    
+}
+
+.trans-box a{
+    position: relative;
+    left: 50%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 0px auto;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.trans-box a:hover{
+    background: white;
+    color:black;
+    cursor: pointer;
+}
+
+.social-text-parent{
+    clear:both;
 }
 
 /*
