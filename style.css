@@ -171,18 +171,17 @@ header nav li:hover{
 
 .landing-text a{
     padding: 10px 10px;
-    background-color: #FF6F31;
-    color: white;
-    border: 2px solid white;
+    background-color: white;
+    color: #FF6F31;
+    border: 2px solid #FF6F31;
     box-sizing: border-box;
     margin-right: 10px;
     margin-top: 20px;
 }
 
 .landing-text a:hover{
-    background-color: white;
-    border:2px solid #FF6F31;
-    color:#FF6F31;
+    background-color: #FF6F31;
+    color:white;
 }
 
 /*GOT TO GO*/
@@ -229,9 +228,9 @@ header nav li:hover{
 
 .advert-copy a{
     padding: 10px 10px;
-    background-color: #FF6F31;
-    color: white;
-    border: 2px solid white;
+    background-color: white;
+    color: #FF6F31;
+    border: 2px solid #FF6F31;
     box-sizing: border-box;
     margin-right: 10px;
     margin-top: 10px;
@@ -239,9 +238,8 @@ header nav li:hover{
 }
 
 .advert-copy a:hover{
-    background-color: white;
-    border:2px solid #FF6F31;
-    color:#FF6F31;
+    background-color: #FF6F31;
+    color:white;
 }
 
 
