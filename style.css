@@ -252,8 +252,37 @@ header nav li:hover{
 }
 
 .background {
-    width:250px;
-    background-image: url("assets/social-img-1@2x.png")
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    background-image: url("assets/social-img-1@2x.png");
+    background-color: blue;
+    box-sizing: border-box;
+    position: relative;
+    transition: .2s;
+}
+
+.background:hover{
+    transform:scale(1.05)
+}
+
+.trans-box {
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    background-color: black;
+    margin: 0;
+    opacity: 0;
+    }
+
+.trans-box:hover{
+    opacity: .7;
 }
 
 /*
