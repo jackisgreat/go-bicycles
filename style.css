@@ -210,14 +210,14 @@ header nav li:hover{
     margin-bottom: 20px;
 }
 
-.advert-text{
+.advert-copy{
     margin:50px 25px 25px 25px;
     box-sizing: border-box;
     position: relative;
     top: 20px;
 }
 
-.advert-text a{
+.advert-copy a{
     padding: 10px 10px;
     background-color: #FF6F31;
     color: white;
@@ -228,7 +228,7 @@ header nav li:hover{
     display: inline-block;
 }
 
-.advert-text a:hover{
+.advert-copy a:hover{
     background-color: white;
     border:2px solid #FF6F31;
     color:#FF6F31;
