@@ -200,12 +200,12 @@ header nav li:hover{
     margin-left: 30px;
 }
 
-.advert{
+.advert-parent{
     clear: both;
     margin-bottom: 25px;
 }
 
-.advert img{
+.box img{
     width:65%;
     margin-bottom: 20px;
 }
