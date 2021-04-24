@@ -346,7 +346,7 @@ header nav li:hover{
 
 .trans-box a:hover{
     background: white;
-    color:black;
+    color:#222222;
     cursor: pointer;
 }
 
@@ -366,10 +366,10 @@ header nav li:hover{
 
 .social-text-parent a{
     margin: 20px 0 0 0;
-    color: black;
+    color: #222222;
     text-align: center;
     display: inline-block;
-    border: 2px solid black;
+    border: 2px solid #222222;
     box-sizing: border-box;
     padding: 10px;
     width:100%;
@@ -377,40 +377,137 @@ header nav li:hover{
 
 .social-text-parent a:hover{
     color: white;
-    background-color: black;
+    background-color: #222222;
 }
 
-/*
-   <div class="social">
-            <div class="social-image-parent">
-                <ul>
-                    <li>
-                        <div class="background">
-                            <div class="trans-box">
-                                <a href="#"> mo mo muckaloo</a>
-                            </div>
-                        </div>
-                    </li>
+/*Footer*/
 
 
+footer {
+}
+
+footer ul{
+    list-style: none;
+    margin: 0 0 0 50px;
+    float:left;
+    padding:20px;
+}
+
+.top-list {
+    font-family: europa,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #222222;
+    letter-spacing: 2px;
+}
+
+footer ul li{
+    font-size: 16px;
+    line-height: 32px;
+    text-indent: 3px;
+}
+
+footer ul li a:hover{
+    color:#FF6F31;
+    cursor: pointer;
+}
+
+.follow{
+    text-align: center;
+    width: 450px;
+    float: right;
+
+}
+.follow .top-list{
+    margin: 0 auto;
+    display:inline-block;
+}
+.follow ul{
+    width: 100%;
+    list-style: none;
+    margin:0 auto;
+    display: inline-block;
+}
+
+.follow ul li{
+    width:30px;
+    padding:10px;
+    float:left;    
+}
+
+.follow ul li a .socialicon1{
+    width:35px;
+    background-image: url("assets/social-icon-youtube_black.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: .7;
+}
+
+.follow ul li .socialicon1:hover{
+     background-image:url("assets/social-icon-youtube_orange.svg");
+     opacity: 1;
+}
+
+.follow ul li a .socialicon2{
+    width:35px;
+    background-image: url("assets/social-icon-insta_black.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: .7;
+}
+
+.follow ul li .socialicon2:hover{
+     background-image:url("assets/social-icon-insta_orange.svg");
+     opacity: 1;
+}
+
+.follow ul li a .socialicon3{
+    width:35px;
+    background-image: url("assets/social-icon-facebook_black.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: .7;
+}
+
+.follow ul li .socialicon3:hover{
+     background-image:url("assets/social-icon-facebook_orange.svg");
+     opacity: 1;
+}
+
+.follow ul li a .socialicon4{
+    width:35px;
+    background-image: url("assets/social-icon-twitter_black.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: .7;
+}
+
+.follow ul li .socialicon4:hover{
+     background-image:url("assets/social-icon-twitter_orange - Copy.svg");
+     opacity: 1;
+}
+
+.follow ul li a .socialicon5{
+    width:35px;
+    background-image: url("assets/social-icon-pinterest_black.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: .7;
+}
+
+.follow ul li .socialicon5:hover{
+     background-image:url("assets/social-icon-pinterest_orange.svg");
+     opacity: 1;
+}
 
 
-        <div class="social">
-            <div class="social-image-parent">
-                <ul>
-                    <li><img src="assets/social-img-1@2x.png"></li>
-                    <li><img src="assets/social-img-2@2x.png"></li>
-                    <li><img src="assets/social-img-3@2x.png"></li>
-                    <li><img src="assets/social-img-4@2x.png"></li>
-                    <li><img src="assets/social-img-5@2x.png"></li>
-                    <li><img src="assets/social-img-6@2x.png"></li>
-                </ul>
-            </div>
-            <div class="social-text-parent">
-                <h4>#LET'SGO</h4>
-                <h5>Just a bunch of <span>GO™</span> hards out in the wild. Share your photos using some <span>GO™</span> products with #LETSGO and tag 
-                @GOBicycles to be featured here.</h5>
-                <button class="black-hover"><a href="#">Explore the Gallery</a></button>
-            </div>
-        </div>
-        */
+.email{
+    clear:both;
+}
+
