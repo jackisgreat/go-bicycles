@@ -12,7 +12,7 @@ h1 {
     font-family: europa,sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 72px;
+    font-size: 72px !impoortant;
     color: #222222;
     line-height: 90px;
 }
@@ -58,7 +58,7 @@ ul {
     font-family: europa,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 21px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -69,7 +69,7 @@ a {
     font-style: normal;
     font-size: 18px;
     letter-spacing: 2px;
-    text-decoration: none;
+    text-decoration: none !important;
     color: black;
     text-transform: uppercase;
 }
@@ -88,39 +88,36 @@ span{
     position: fixed; /* Fixed position - sit on top of the page */
     top: 0;
     width: 100%; /* Full width */
-    height:150px;
-    transition: 0.2s;
+    height:120px;
     z-index: 3;
 }
 
-header img {
+#header img {
     width: 150px;
-    display: inline-block;
     position: absolute;
     top: 50%;
     margin-top: -25px;
     left:50px;
 }
 
-header img:hover{
+#header img:hover{
     cursor: pointer;}
 
-header nav ul{
+#header nav ul{
     position: absolute;
-    left:250px;
+    left:175px;
     bottom:50%;
-    transform:translateY(40px);
-    display: inline-block;
+    transform:translateY(30px);
     list-style-type: none;
     text-transform: uppercase;
 }
 
-header nav li{
-    float: right;
+#header nav li{
+    float: left;
     padding:0px 25px;
 }
 
-header nav li:hover{
+#header nav li:hover{
     color: #FF6F31;
     cursor: pointer;
 }
@@ -129,9 +126,40 @@ header nav li:hover{
 /* DROP DOWN SHOP */
 
 
-.drop-down{
+#drop-down{
     display: none;
+    position: fixed;
+    top: 60px;
+    background-color: white;
+    z-index: 2;
+    width: 100%;
+    border-bottom: 10px solid #FF6F31;
 }
+
+#drop-down div{
+    float: left;
+    margin-left: 20px;
+    margin-top:60px;
+    width: 100%;
+    }
+
+#drop-down ul {
+    float: left;
+    margin-left:20px;
+}
+
+#drop-down ul li:hover{
+    color: #FF6F31;
+    cursor: pointer;
+}
+
+#drop-down .top-list:hover{
+    color: #FF6F31;
+    cursor: pointer;
+}
+
+
+
 
 
 /* Landing*/
@@ -158,11 +186,13 @@ header nav li:hover{
     margin-bottom:25px;
     z-index: 2;
     text-shadow: 0 0 60px white;
+    font-size: 60px;
 }
 
 .landing h5{
     color: #222222;
     text-shadow: 0 0 60px white;
+    margin-bottom:40px;
 }
 .landing h5 span{
     font-family: europa,sans-serif;
@@ -212,6 +242,9 @@ header nav li:hover{
 .advert-parent{
     clear: both;
     margin-bottom: 25px;
+}
+.advert-parent h3{
+    font-size: 48px;
 }
 
 .box img{
